@@ -1,0 +1,155 @@
+/* Text Elements */
+
+p.paragraph.plug {
+  margin-top: .75rem;
+  margin-bottom: 1.5rem;
+  color: #505050;
+}
+
+span.text-element.title-bar-title {
+  margin-left: 6%;
+  padding-top: .6875rem;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+ul.link-list.menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display:    -moz-box;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+/* Interaction Elements */
+
+label.label {
+  background-color: transparent;
+  color: #000;
+  font-size: 1rem;
+}
+
+/* Layout Elements */
+
+body > .row.footer-row {
+  background-color: #ddd;
+}
+
+body > .row > [class*='small-'].off-canvas-wrapper-inner {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.subgrid > .row > [class*='small-'].subgrid-column-1 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.subgrid > .row > [class*='small-'].callout.primary {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: .9375rem;
+}
+
+.subgrid > .row > [class*='small-'] {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.subgrid > .row.subgrid-row-2 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.headingContainer {
+  padding-right: .9375rem;
+  padding-left: .9375rem;
+}
+
+.container.hide-for-large.title-bar {
+  display: block;
+  -ms-flex-pack: start;
+
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+     -moz-box-pack: start;
+          justify-content: flex-start;
+}
+
+.container.off-canvas.position-left.reveal-for-large {
+  padding: .9375rem;
+  min-height: 75rem;
+  max-height: none;
+}
+
+a.glyph.icon-menu {
+  float: left;
+  font-size: 1.5rem;
+}
+
+a.glyph {
+  color: #fff;
+}
+
+div.responsive-picture.thumbnail {
+  max-width: none;
+}
+
+@media screen and (min-width: 64rem) {
+  /* Interaction Elements */
+
+  label.label.input-label {
+    padding-left: 0;
+  }
+
+  /* Layout Elements */
+
+  body > .row > [class*='small-'].off-canvas-wrapper-inner {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  body > .row.off-canvas-wrapper {
+    max-width: none;
+    width: auto;
+  }
+
+  .subgrid > .row.subgrid-row-1 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75rem;
+  }
+
+  .subgrid > .row > [class*='small-'].callout.primary {
+    padding-left: 1.25rem;
+  }
+
+  .subgrid > .row.subgrid-row-2 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: none;
+  }
+
+  .subgrid > .row {
+    max-width: none;
+  }
+
+  .container.headingContainer {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75rem;
+  }
+
+  .container.inner-wrapper {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    min-height: 62.5rem;
+    max-height: none;
+  }
+
+  .container.off-canvas.position-left.reveal-for-large {
+    margin-right: auto;
+    margin-left: auto;
+    max-height: none;
+  }
+}
